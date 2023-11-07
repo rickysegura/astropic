@@ -1,0 +1,62 @@
+<!--
+    Developed by Ricky Segura
+    rickysegura@proton.me
+
+    Los Angeles, California, USA
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroPhoto - See what's out there</title>
+    <link rel="shortcut icon" href="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a style="text-decoration:none;color:crimson;" href="https://apod.nasa.gov/apod/lib/about_apod.html" target="_blank">About APOD</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 class="page-heading">AstroPhoto</h1>
+        <p>See what's out there.</p>
+    </header>
+
+    <section class="tool">
+        <div class="api-photo">
+            <div style="text-align: center;">
+                <img id="photo">
+            </div>
+
+            <div class="photoMetaData">
+                <h2 id="photoTitle"></h2>
+                <p id="photoExplan"></p>
+                <p id="photoCopy"></p>
+            </div>
+        </div>
+
+        <div class="date-picker">
+            <div class="calendar">
+                <div style="margin-bottom:10px;">
+                    <label for="date">Select a date and submit it 🚀</label>
+                </div>
+                <input type="date" id="date" class="calendar">
+            </div>
+
+            <div class="date-submit">
+                <button class="send-api" id="btn" type="submit">Submit</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>Copyright &copy;2023 <a href="https://rickysegura.w3spaces.com/" target="_blank">Ricky Segura</a> | <a href="" target="_blank">Neospaces</a>, Los Angeles, Ca</footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

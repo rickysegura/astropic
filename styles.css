@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+    background-color: #E1ECF9;
+    color: #091D34;
+    font-family: monospace;
+    margin: 0;
+}
+
+header {
+    /*background-color: #236AB9;*/
+    background-image: linear-gradient(to top, rgba(225, 236, 249,0), rgba(35, 106, 185, 1));
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.page-heading {
+    text-transform:capitalize;
+    font-size: 45px;
+    font-family: 'Gugi', cursive;
+    margin: 0;
+}
+
+.photoMetaData {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Kanit', sans-serif;
+    color: #091D34;
+}
+        
+.api-photo h2 { font-size: 25px; }
+
+.api-photo p { font-size: 16px; }
+
+.date-picker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calendar { text-align: center; }
+
+.date-submit {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.send-api {
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+
+    color: white;
+    background-color: #609CE1;
+
+    border: none;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.send-api:hover { cursor: pointer; }
+
+#photo {
+    height: 400px;
+    width: 100%;
+
+    border-radius: 18px;
+
+    display: none;
+}
+
+.api-photo {
+    width: 400px;
+    margin: auto;
+}
